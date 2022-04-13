@@ -1,0 +1,81 @@
+
+.url, .email {
+	display: block;
+}
+
+.email:after {
+	content: url('img/mail.png');
+	margin-left:0.3em;
+}
+
+.url:after {
+	content: url('img/url.png');
+	margin-left:0.3em;
+}
+
+td {width: 20em;}
+
+tr.par {
+	background-color: #ddd;
+}
+
+tr.impar {
+	background-color: #eee;
+}
+
+td.ruim {color: #a99;}
+td.regular {color: #a77;}
+td.bom {color: #a55;}
+td.otimo {color: #a33;}
+
+.photo {
+	float: right;
+	margin-right: 5em;
+	border: #fff 1em solid;
+	
+	-webkit-box-shadow: 0px 0px 5px 5px #191b30;
+	-moz-box-shadow: 0px 0px 5px 5px #191b30;
+	box-shadow: 0px 0px 5px 5px #191b30;
+}
+
+#footnote {
+	border-top: 1px dashed #aaa;
+	padding: 5px;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	
+}
+
+#footnote li {
+	list-style-type: none;
+	margin-top: 3px;
+}
+
+fieldset {
+	border: #ccc 1px dotted;
+	margin-top: 1em;
+}
+
+label {
+	font-weight: bold;
+	margin-right: 10px;
+	width: 15em;
+}
+
+label:after {
+	content: ":";
+}
+
+form label {
+	display: block;
+}
+
+input, textarea {
+	border: #669 2px solid;
+	display: block;
+	width: 30em;
+}
+
+input[type=submit] {
+	border: #bbb 1px solid;
+	margin-top: 0.5em;
+}
